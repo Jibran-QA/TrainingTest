@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="POM.MainRunnerClass">
+        <methods>
+          <include name="SaveandVerifyAddress_Testcase"/>
+          <include name="ClickonSignIn_Testcase"/>
+          <include name="Enter_EmailAddressandPassword_ClickContinue_Testcase"/>
+          <include name="setup"/>
+          <include name="SelectProductFromPLP_TestCase"/>
+          <include name="teardown"/>
+          <include name="AddNewAddress_Testcase"/>
+          <include name="Click_AccountIcon_Testcase"/>
+          <include name="AddressbookWhenNoAddressAdded_Testcase"/>
+          <include name="UserProfileButton_Testcase"/>
+          <include name="SearchIcon_TestCase"/>
+        </methods>
+      </class> <!-- POM.MainRunnerClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
